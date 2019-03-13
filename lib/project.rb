@@ -11,7 +11,7 @@ class Project
   
   def add_backer(backer)
     @backers << backer 
-    project.add_backer(self) unless project.add_backer.inculde?(self)
+    backer.back_project(self) unless backer.back_project.inculde?(self)
   end 
   
 end 
