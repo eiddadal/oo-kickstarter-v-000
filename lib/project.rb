@@ -10,7 +10,7 @@ class Project
   end 
   
   def add_backer(backer)
-    backer = Backer(name) 
+    
     @backers << backer 
   end 
   
